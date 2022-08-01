@@ -54,20 +54,3 @@ function clearTask() {
   localStorage.clear();
   showItem();
 }
-
-//exclude duplicate task
-// taskList.map(task => {
-//  if (document.querySelector(`input[value="${data.value}"]`)) {
-//    alert("Task already exist");
-//  }});
-
-// taskList.map(task => {
-// if (task == inputVal.value) {
-// alert("duplicate element");
-// }});
-
-//checking length
-// console.log(taskList.length);
-// if (taskList.length < 5) {
-//   alert("data must be more than 5");
-//   itemShow.innerHTML="";
